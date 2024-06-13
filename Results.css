@@ -1,0 +1,42 @@
+*{
+    background-color: white;
+    padding: 10px;
+}
+
+.image{
+    margin-left: 375px;
+}
+.image img{
+    width: 150px;
+    height: auto;
+}
+.heading h3{
+    text-align: center;
+    color: #073b5e;
+}
+.heading h5{
+    text-align: center;
+}
+.heading input{
+    height: 35px;
+    width: 100%;
+    padding: 0px 108px 0px 31px;
+    font-size: 16px;
+    line-height: 20px;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+.search{
+    display: flex;
+    flex-direction: row;
+}
+.res h6 a{
+    padding: 0px;
+    color: black;
+    text-decoration: none;
+}
+.res p{
+    padding: 0px;
+    color: black;
+}

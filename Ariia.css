@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.header {
+    width : 1170px;
+    height : 45px;
+    background-color: #073b5e;
+    color: white;
+    font-size: 15px;
+    padding: 15px 30px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 6px;
+}
+
+
+img{
+    width: 50%;
+    height: 65%;
+}
+
+#imgs{
+    display: flex;
+}
+
+#btns{
+    min-width: 150px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    padding-top: 35px;
+    margin-right: 40px;
+}
+
+#btns button{
+    padding: 10px 14px;
+    background-color: #FF6600;
+    color: white;
+    font-size: 14px;
+    border: none;
+    font-weight: bold;
+    border-radius: 20px;    
+}
+#btns button:nth-child(1){
+    margin-bottom: 20px;
+}
+#btns button:nth-child(2){
+    margin-bottom: 10px;
+}
+
+
+#head1{
+    display: flex;  
+    max-width: 100vw;
+}
+
+
+/* Navbar bg Color */
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: #073b5e !important;
+}
+/* Navbar Color */
+.nav-link{
+    color:white!important;
+}
+/* Navbar Position */
+#navbar{
+    width : 1170px;
+    font-size: 14px;
+    font-family:sans-serif;
+}
+
+
+/* Middle */
+
+.Middle{
+    margin: 20px;
+    padding: 0px;
+    text-align: center;
+}
+.ariia h2{
+    color: #FF6600;
+    font-weight: bold;
+}
+.ariia_txt a{
+    color: #0170B9;
+    font-weight: bold;
+    font-size: x-large;
+    text-decoration: underline;
+}
+.ariia_txt a:hover{
+    color: black;
+}
+
+/* Footer */
+.info{
+    background-color: #073b5e;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+.first{
+    color: white;
+}
+.first div{
+    padding: 5px;
+}
+.second{
+    color: white;
+}
+.second div{
+    padding: 5px 35px 5px 20px;
+}
+.third{
+    color: white;
+}
+.third div{
+    padding: 5px;
+}
+.fourth{
+    color: white;
+}
+.fourth div{
+    padding: 5px;
+}
+.fifth{
+    color: white;
+}
+.fifth div{
+    padding: 5px;
+}
+.info div a:hover{
+    color: orangered;
+} 
+
+footer h6{
+    color: white;
+    background-color: #054d7d;
+    text-align: center;
+    height: 50px;
+    padding: 17px;
+}
